@@ -6,7 +6,7 @@ namespace oop_exam_dec_2021_24087
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!This is main method.");
         }
     }
 }

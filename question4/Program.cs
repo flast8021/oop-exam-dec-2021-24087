@@ -1,4 +1,5 @@
 ﻿using System;
+using oop_exam_dec_2021_24087.question4.models;
 
 namespace question4
 {
@@ -6,7 +7,10 @@ namespace question4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            EmployeeList eL = new EmployeeList();
+            Console.WriteLine("----------------------------");
+            eL.work();
+            Console.WriteLine("----------------------------");
         }
     }
 }
